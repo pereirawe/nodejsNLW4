@@ -1,0 +1,13 @@
+describe("First", () => {
+    
+    it("Dois mais dois é 4", () => {
+        expect(2 + 2).toBe(4);
+    });
+    
+    it("Dois mais dois não é 5", () => {
+        expect(2 + 2).not.toBe(5);
+    });
+
+    
+
+})
